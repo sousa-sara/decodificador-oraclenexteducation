@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/style.css">
+    <link rel="icon" href="assets/img/istockphoto-1393000823-612x612.jpg" type="image/x-icon">
+    <title>Decodificador</title>
+</head>
+<body>
+    <main class="container">
+        <div class="wrapper-criptografia">
+                <textarea id="input-text" placeholder="Digite seu texto aqui..." ></textarea>
+                <div class="btns-cripografia">
+                    <button id="btn-crypt">Criptografar</button>
+                    <button id="btn-decrypt">Descriptografar</button>
+                </div>
+        </div>
+        <div class="wrapper-result">
+            <div class="result" id="result">
+                <div id="nodata" style="display: flex; flex-direction: column; width: 100%; height: 100%; align-items: center; justify-content: center; text-align: center;">
+                    <img src="./assets/img/pesquisa.png" style="height: 5rem;" alt="imagem de uma lupa">
+                    <h2 style="text-align: center;">Nenhuma mensagem encontrada</h2>
+                    <span>Digite o texto que você deseja criptografar ou descriptografar</span>
+                </div>
+            </div>
+            <button id="btn-copy">Copiar</button>
+        </div>
+    </main>
+    <script src="assets/script.js"></script>
+</body>
+</html>

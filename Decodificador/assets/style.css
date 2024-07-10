@@ -1,0 +1,116 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    background-color: #508991;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    gap: 1rem;
+}
+
+.wrapper-result {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    background-color: white;
+    margin: 1rem;
+    border-radius: 1rem;
+    box-shadow: 0 0 8px #00000033;
+}
+
+.wrapper-criptografia, .wrapper-result {
+    padding: 1rem;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+}
+
+.wrapper-result {
+    width: 30%;
+}
+.wrapper-criptografia {
+    width: 70%;
+}
+
+
+textarea {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 2em;
+    background: transparent;
+    outline: none;
+    border: none;
+    color: #ffffff;
+    resize: none;
+}
+
+textarea::placeholder {
+    color: #ffffff;
+}
+
+
+button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+}
+.btns-cripografia {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 1rem;
+    gap: 1rem;
+}
+
+#btn-crypt {
+    background-color: #09BC8A;
+    color: white;
+    border-radius: .5rem;
+}
+#btn-decrypt {
+    background: transparent;
+    color: #eee;
+    border: 2px solid #09BC8A;
+    border-radius: .5rem;
+}
+
+#btn-decrypt, #btn-crypt {
+    padding: .5rem;
+    min-width: 180px;
+    width: 200px;
+}
+
+#btn-decrypt, #btn-crypt, #btn-copy {
+    font-size: 1.2em;
+    border-radius: 1rem;
+}
+
+#btn-copy {
+    color: #333;
+    background: transparent;
+    border: 1px solid #cccccc;
+}
+
+.result {
+    height: 100%;
+    padding: 10px;
+    border: none;
+    font-size: 1.5em;
+}
+
+.titulo {
+    color: #172A3A;
+}
